@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5f5b66;
+    background-color: #ac9dc5;
     padding: 15px 40px;
 }
 
@@ -61,7 +61,7 @@ img {
     color: white;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(142, 137, 148);
 }
 
 /* Three column grid with a nice big gap */
@@ -95,7 +95,7 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(100, 111, 128);
+    background-color: rgb(167, 153, 185);
     color: white;
     text-align: right;
     padding: 3em 3em;
