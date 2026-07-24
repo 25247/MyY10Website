@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ac9dc5;
+    background-color: #655e6e;
     padding: 15px 40px;
 }
 
@@ -95,7 +95,7 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(167, 153, 185);
+    background-color: rgb(101, 96, 107);
     color: white;
     text-align: right;
     padding: 3em 3em;
