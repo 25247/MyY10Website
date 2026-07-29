@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #655e6e;
+    background-color: #567092;
     padding: 15px 40px;
 }
 
@@ -38,7 +38,7 @@ img {
 
 /* The hero section styling- use your OWN Hero Image URL here */
 .hero {
-    background-image: url('images/Website_Header.png');
+    background-image: url(images/Website\ Header\ 2.png);
     height: 25vh;
     background-size: cover;
     background-position: center;
@@ -61,7 +61,7 @@ img {
     color: white;
     font-size: 2em;
     padding: 0.1em 3em;
-    background-color: rgb(142, 137, 148);
+    background-color: rgb(97, 109, 126);
 }
 
 /* Three column grid with a nice big gap */
@@ -77,7 +77,7 @@ img {
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
-    background-color: rgb(110, 107, 119);
+    background-color: rgb(73, 80, 99);
     color: white;
     padding: 1em;
     border-radius: 0.5em;
@@ -95,7 +95,7 @@ img {
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
 .footer{
-    background-color: rgb(101, 96, 107);
+    background-color: rgb(80, 95, 116);
     color: white;
     text-align: right;
     padding: 3em 3em;
