@@ -101,7 +101,26 @@ img {
     /* center align text */
     text-align: center;
      font-family: Georgia, serif;
+     }
+
+/* Center the Video Game Design Widget and text perfectly */
+#video-game-design {
+    text-align: center;
 }
+
+#video-game-design iframe {
+    display: block;
+    margin: 3em auto 1.5em auto; /* Centers the iframe horizontally and matches your grid spacing */
+    max-width: 100%;
+}
+
+#video-game-design h2 {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    color: #000000; /* Change this color if your site background is dark! */
+    margin-bottom: 3em; /* Adds clean spacing before the footer */
+}
+
 
 
 /* Styling for a footer section to take a bit of spcae at the bottom of the page */
