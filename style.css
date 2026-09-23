@@ -74,18 +74,17 @@ img {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
-/* Three column grid with a flexible gap and size protection */
 .topic-content{
     display: grid;
-    /* This rule keeps it 3-columns on PC, but drops to 2 or 1 columns on smaller Chromebooks instead of squishing */
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    /* Using max() lets the gap be a comfortable 6em on PC, but dynamically shrinks down on smaller screens */
-    gap: max(20px, 6em);
-    /* Bring the whole section in off the sides of the page */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6em;
+    /* bring the whole section in off the sides of the page */
     width: 70%;
-    /* Top margin of 3em and center right/left */
+    /* top margin of 3em and center right/left */
     margin: 3em auto;
 }
+
+
 
 /* Styling for the individual topic cards rounded edges background color and a drop shadow */
 .topic-card{
