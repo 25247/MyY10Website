@@ -139,3 +139,10 @@ img {
     text-align: center;
     width: 100%;
 }
+/* Forces the About Me images to stay square on smaller screens like Chromebooks */
+#about-me img {
+    aspect-ratio: 1 / 1 !important;
+    object-fit: cover !important;
+    height: 100% !important;
+    width: 100% !important;
+}
