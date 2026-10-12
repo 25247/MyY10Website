@@ -140,9 +140,10 @@ img {
     width: 100%;
 }
 /* Forces the About Me images to stay square on smaller screens like Chromebooks */
-#about-me img {
-    aspect-ratio: 1 / 1 !important;
-    object-fit: cover !important;
-    height: 100% !important;
-    width: 100% !important;
+/* Custom rule to make About Me images perfectly square */
+.about-card-img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* Forces the image to stay a perfect square */
+    object-fit: cover;   /* Crops the image into the square without squishing it */
+    border-radius: 8px;
 }
